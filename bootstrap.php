@@ -15,6 +15,6 @@ require_once CRAFT_VENDOR_PATH . '/autoload.php';
 
 // Load dotenv?
 if (class_exists(Dotenv\Dotenv::class)) {
-    // Use `createMutable` to allow .env file overrides for existing environment variables.
-    Dotenv\Dotenv::createImmutable(CRAFT_BASE_PATH)->safeLoad();
+    // Use `createUnsafeMutable` to allow .env file overrides for existing environment variables.
+    Dotenv\Dotenv::createUnsafeMutable(CRAFT_BASE_PATH)->safeLoad();
 }
