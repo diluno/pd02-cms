@@ -1,0 +1,5 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.9186fc99-f192-4ddd-8e4f-e04484542d2f:read' # Default site
+  - 'usergroups.everyone:read'
