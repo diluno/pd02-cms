@@ -1,0 +1,22 @@
+dateModified: 1785852080
+email:
+  fromEmail: sam@diluno.com
+  fromName: 'Digital Violence Info'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
+    9186fc99-f192-4ddd-8e4f-e04484542d2f: 'Digital Violence Info' # Digital Violence Info
+system:
+  edition: solo
+  live: true
+  name: 'Digital Violence Info'
+  schemaVersion: 5.10.0.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
