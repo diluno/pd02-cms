@@ -1,4 +1,12 @@
-dateModified: 1785852080
+dateModified: 1785940039
+fs:
+  r2:
+    hasUrls: true
+    name: 'Cloudflare R2'
+    settings:
+      configurationHandle: cloudflareR2
+    type: Dart\Library\Craft\FlysystemProvider\Filesystem\DartFlysystemStorage
+    url: $CLOUDFLARE_R2_BASIS_URL
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -7,6 +15,11 @@ meta:
   __names__:
     502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
     9186fc99-f192-4ddd-8e4f-e04484542d2f: 'Digital Violence Info' # Digital Violence Info
+plugins:
+  dart-flysystem-provider:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

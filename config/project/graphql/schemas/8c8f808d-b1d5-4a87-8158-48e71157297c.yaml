@@ -1,5 +1,6 @@
 isPublic: true
 name: 'Public Schema'
 scope:
-  - 'sites.9186fc99-f192-4ddd-8e4f-e04484542d2f:read' # Default site
+  - 'sites.9186fc99-f192-4ddd-8e4f-e04484542d2f:read' # Digital Violence Info
   - 'usergroups.everyone:read'
+  - 'volumes.ba207dc3-abc5-4588-9f0e-85edd741e210:read' # Assets
