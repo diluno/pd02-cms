@@ -1,4 +1,8 @@
-dateModified: 1785940039
+dateModified: 1785940383
+email:
+  fromEmail: sam@diluno.com
+  fromName: 'Digital Violence Info'
+  transportType: craft\mail\transportadapters\Sendmail
 fs:
   r2:
     hasUrls: true
@@ -7,12 +11,9 @@ fs:
       configurationHandle: cloudflareR2
     type: Dart\Library\Craft\FlysystemProvider\Filesystem\DartFlysystemStorage
     url: $CLOUDFLARE_R2_BASIS_URL
-email:
-  fromEmail: sam@diluno.com
-  fromName: 'Digital Violence Info'
-  transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    8c8f808d-b1d5-4a87-8158-48e71157297c: 'Public Schema' # Public Schema
     502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
     9186fc99-f192-4ddd-8e4f-e04484542d2f: 'Digital Violence Info' # Digital Violence Info
 plugins:
@@ -21,7 +22,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: 'Digital Violence Info'
   schemaVersion: 5.10.0.0
