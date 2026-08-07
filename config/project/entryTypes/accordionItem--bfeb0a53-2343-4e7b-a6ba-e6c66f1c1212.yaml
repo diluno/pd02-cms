@@ -1,7 +1,8 @@
-altTranslationKeyFormat: null
-altTranslationMethod: none
+allowLineBreaksInTitles: false
+color: null
+description: null
 fieldLayouts:
-  adf495c1-088a-4956-9a5f-2fcee562ae79:
+  9a6c3439-85e1-497c-ae7e-0b0519527b3d:
     cardThumbAlignment: end
     tabs:
       -
@@ -25,13 +26,13 @@ fieldLayouts:
             orientation: null
             placeholder: null
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\assets\AssetTitleField
-            uid: e63ac529-bcd8-4d14-b918-e8773a7f5f88
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: bbd2526b-c5cb-46ac-a3d5-20c8a96dfa0d
             userCondition: null
             warning: null
             width: 100
@@ -40,27 +41,30 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 6d50a3fb-c0da-4bf2-8403-375c667bdc57 # Image Alt Text
+            fieldUid: 9126ed28-5fbe-473b-8864-726493606158 # Richtext
             handle: null
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 875e299b-d97c-408f-be5d-800c094c95b5
+            uid: 514d0e2d-0b2d-4f2e-88bd-791a7ab1b672
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1199208e-9b0b-4b81-854d-1be41d0c988b
+        uid: ad9128cc-47be-4b3a-a7ed-d6283f4fda74
         userCondition: null
     thumbFieldKey: null
-fs: r2
-handle: assets
-name: Assets
-sortOrder: 1
-subpath: ''
+handle: accordionItem
+hasTitleField: true
+icon: list
+name: 'Accordion Item'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-transformFs: null
-transformSubpath: ''
+uiLabelFormat: '{title}'

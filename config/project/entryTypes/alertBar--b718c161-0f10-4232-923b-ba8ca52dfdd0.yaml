@@ -1,0 +1,58 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  caafd836-ae70-4e68-95c7-b5cc932290e5:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 5052c3cc-7375-4297-b3f7-0aea9ba6a6f2 # Alert Color
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17373500-9e5d-485b-b0a5-89e2a8dfb594
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 9126ed28-5fbe-473b-8864-726493606158 # Richtext
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1742854-17b0-436f-bf1f-6d48f9614292
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 699aee10-5fe5-4493-bea1-8af7ac4c4380
+        userCondition: null
+    thumbFieldKey: null
+handle: alertBar
+hasTitleField: false
+icon: triangle-exclamation
+name: 'Alert Bar'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

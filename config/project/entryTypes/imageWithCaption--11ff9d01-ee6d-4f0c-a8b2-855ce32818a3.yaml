@@ -1,0 +1,58 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  15c478a0-599f-4109-a01c-515c6e60b648:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 62614b94-2c26-4f6f-8748-9285c22daf37 # Image
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e867f07e-2b8e-4ed4-992b-760db8798933
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 57443ee2-995c-42ae-aa86-c4944dfedea2 # Caption
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43598f93-2ea7-4970-875a-d0371c7946d9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5fac38f7-864d-42b9-bccd-b3ecafba5d4a
+        userCondition: null
+    thumbFieldKey: null
+handle: imageWithCaption
+hasTitleField: false
+icon: image
+name: 'Image with Caption'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

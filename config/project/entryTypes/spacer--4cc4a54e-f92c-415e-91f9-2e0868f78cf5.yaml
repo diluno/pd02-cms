@@ -1,0 +1,42 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  19c30a0a-50df-4b38-9ea6-aff1547482f3:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 0381f550-8224-4fbc-a3c8-a1d70ecb63c9 # Spacer Size
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c788fc0-ad1f-425e-9abf-8b14048ee53f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eaff29c6-c81a-4ff5-a701-a1c8968ccec4
+        userCondition: null
+    thumbFieldKey: null
+handle: spacer
+hasTitleField: false
+icon: arrows-up-down
+name: Spacer
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

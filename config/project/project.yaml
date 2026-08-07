@@ -1,4 +1,4 @@
-dateModified: 1785940383
+dateModified: 1786107429
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -13,10 +13,55 @@ fs:
     url: $CLOUDFLARE_R2_BASIS_URL
 meta:
   __names__:
+    3ac961aa-61c3-4e44-9448-8b1aedcb3291: 'Footer Link' # Footer Link
+    3b25fa09-d5ea-4370-8882-4699bf4d7083: Box # Box
+    4cc4a54e-f92c-415e-91f9-2e0868f78cf5: Spacer # Spacer
+    4f5e2019-880b-4ad9-ad37-5a48690f88fc: 'Footer Links' # Footer Links
+    5e8b5399-82b0-43b4-9bea-6fc0889b9675: 'CTA Link' # CTA Link
+    5e30556c-9420-447e-8d42-743da2d6e4e6: Home # Home
+    6abbe8c1-e07c-4905-8ca3-a7c6f420c6a2: Boxes # Boxes
+    6b3cf257-2d9e-4325-84b6-ae6d81f904cc: Pages # Pages
+    6d50a3fb-c0da-4bf2-8403-375c667bdc57: 'Image Alt Text' # Image Alt Text
+    7da63e3c-e5dc-4c0f-9248-9832c1ef5c3c: Accordion # Accordion
+    7e15fb59-359e-442f-96b0-a95a4e3c6bd8: 'Box Color' # Box Color
+    8b634a68-f395-496d-85d1-7519546717e8: 'Content Blocks' # Content Blocks
     8c8f808d-b1d5-4a87-8158-48e71157297c: 'Public Schema' # Public Schema
+    8c95832e-cbec-4bdf-92da-4bbb9b41ddcd: 'Box Width' # Box Width
+    8f3bf552-c9d6-4375-a78f-11c34b5326b7: 'Link Item' # Link Item
+    9a370eee-9387-4964-b2c6-9d6f34f4ec6a: 'Header Navigation' # Header Navigation
+    11ff9d01-ee6d-4f0c-a8b2-855ce32818a3: 'Image with Caption' # Image with Caption
+    86bdf1c6-40a2-45a8-b62f-eb1162f3fb34: 'Lead Text' # Lead Text
+    0381f550-8224-4fbc-a3c8-a1d70ecb63c9: 'Spacer Size' # Spacer Size
     502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
+    4876a699-ed15-4eae-9ccb-bf49c64d59db: 'Section Label' # Section Label
+    5052c3cc-7375-4297-b3f7-0aea9ba6a6f2: 'Alert Color' # Alert Color
+    7698ec6a-034e-4b9c-8ff7-55f537e1c721: Home # Home
+    9126ed28-5fbe-473b-8864-726493606158: Richtext # Richtext
     9186fc99-f192-4ddd-8e4f-e04484542d2f: 'Digital Violence Info' # Digital Violence Info
+    57443ee2-995c-42ae-aa86-c4944dfedea2: Caption # Caption
+    62614b94-2c26-4f6f-8748-9285c22daf37: Image # Image
+    327668e8-109a-45f2-9aec-268727c53c87: 'Navigation Link' # Navigation Link
+    7009856f-759c-4bcd-9df3-d35151327e2f: Richtext # Richtext
+    30689186-766e-4528-8bd2-0c73394dba60: 'Box Group' # Box Group
+    a7feb6ec-ce9b-45c5-9343-047045c744a5: 'Accordion Items' # Accordion Items
+    ac7683f2-3f6f-4129-8552-93b11dd5f3b8: Translations # Translations
+    b12bce77-7dce-4528-983a-a53ede97ec7b: General # General
+    b718c161-0f10-4232-923b-ba8ca52dfdd0: 'Alert Bar' # Alert Bar
+    ba207dc3-abc5-4588-9f0e-85edd741e210: Assets # Assets
+    bc64f211-3a29-4c79-8a01-314a93023384: 'Digital Violence Info FR' # Digital Violence Info FR
+    bfeb0a53-2343-4e7b-a6ba-e6c66f1c1212: 'Accordion Item' # Accordion Item
+    cdd308a2-f490-4b31-a9dc-1237438c9cb9: 'Single Line Text' # Single Line Text
+    d88ad519-a115-4bed-8762-e4127633bece: 'Link List' # Link List
+    d97c0326-e5c2-4615-8e72-0e53c3a6b957: Link # Link
+    dc43619b-de14-4abc-aa76-fc144bca1fdf: 'Topic Page' # Topic Page
+    dda23604-56f0-495a-a6ed-65d381685a99: 'Box Icon' # Box Icon
+    e7d26042-470b-4891-a117-7cb38fb3e7d6: 'Link Items' # Link Items
+    edc52aee-d522-46d1-a37c-cf539a0a28cf: 'Title Size' # Title Size
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.6.0.0
   dart-flysystem-provider:
     edition: standard
     enabled: true

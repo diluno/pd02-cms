@@ -1,0 +1,40 @@
+columnSuffix: null
+handle: titleSize
+instructions: null
+name: 'Title Size'
+searchable: false
+settings:
+  customOptions: false
+  iconsOnly: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Gross
+        -
+          - value
+          - large
+        -
+          - icon
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Klein
+        -
+          - value
+          - small
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\ButtonGroup

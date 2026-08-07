@@ -1,0 +1,58 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  44a2f988-1958-4a12-8820-b4a70087ae11:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 86bdf1c6-40a2-45a8-b62f-eb1162f3fb34 # Lead Text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3196aa4d-2735-44c8-a6ff-5b3e8eed6351
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 8b634a68-f395-496d-85d1-7519546717e8 # Content Blocks
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9eedb1b0-7181-456d-ae26-43b75e8ab788
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dd6f1dd8-f2a8-47a3-8e02-11b1b555461f
+        userCondition: null
+    thumbFieldKey: null
+handle: home
+hasTitleField: false
+icon: house
+name: Home
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

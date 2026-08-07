@@ -1,0 +1,74 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  6a9a9260-9d0e-485c-a540-709fa700452f:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 8c95832e-cbec-4bdf-92da-4bbb9b41ddcd # Box Width
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b8777b6-458c-4027-a279-27088c6393e9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: edc52aee-d522-46d1-a37c-cf539a0a28cf # Title Size
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c1cb39b-e978-4af8-8b06-6676223d5f69
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 6abbe8c1-e07c-4905-8ca3-a7c6f420c6a2 # Boxes
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29c89392-c57e-4009-bfe3-ae6d47d2807c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: cbee9703-cdb1-49fb-9a21-21096504bf22
+        userCondition: null
+    thumbFieldKey: null
+handle: boxGroup
+hasTitleField: false
+icon: grid
+name: 'Box Group'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

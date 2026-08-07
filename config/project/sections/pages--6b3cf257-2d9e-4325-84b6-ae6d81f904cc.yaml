@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: dc43619b-de14-4abc-aa76-fc144bca1fdf # Topic Page
+handle: pages
+maxAuthors: 1
+minAuthors: 1
+name: Pages
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  9186fc99-f192-4ddd-8e4f-e04484542d2f: # Digital Violence Info
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+  bc64f211-3a29-4c79-8a01-314a93023384: # Digital Violence Info FR
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+structure:
+  maxLevels: 2
+  uid: 2918d404-a2d1-41ed-9482-d83e709a7c7e
+type: structure

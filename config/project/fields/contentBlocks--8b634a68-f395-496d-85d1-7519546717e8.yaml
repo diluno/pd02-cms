@@ -1,0 +1,61 @@
+columnSuffix: null
+handle: contentBlocks
+instructions: null
+name: 'Content Blocks'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 4876a699-ed15-4eae-9ccb-bf49c64d59db # Section Label
+    -
+      __assoc__:
+        -
+          - uid
+          - 7009856f-759c-4bcd-9df3-d35151327e2f # Richtext
+    -
+      __assoc__:
+        -
+          - uid
+          - 30689186-766e-4528-8bd2-0c73394dba60 # Box Group
+    -
+      __assoc__:
+        -
+          - uid
+          - d88ad519-a115-4bed-8762-e4127633bece # Link List
+    -
+      __assoc__:
+        -
+          - uid
+          - 7da63e3c-e5dc-4c0f-9248-9832c1ef5c3c # Accordion
+    -
+      __assoc__:
+        -
+          - uid
+          - 11ff9d01-ee6d-4f0c-a8b2-855ce32818a3 # Image with Caption
+    -
+      __assoc__:
+        -
+          - uid
+          - b718c161-0f10-4232-923b-ba8ca52dfdd0 # Alert Bar
+    -
+      __assoc__:
+        -
+          - uid
+          - 4cc4a54e-f92c-415e-91f9-2e0868f78cf5 # Spacer
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

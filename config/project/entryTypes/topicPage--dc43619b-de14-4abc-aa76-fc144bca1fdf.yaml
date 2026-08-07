@@ -1,7 +1,8 @@
-altTranslationKeyFormat: null
-altTranslationMethod: none
+allowLineBreaksInTitles: false
+color: null
+description: null
 fieldLayouts:
-  adf495c1-088a-4956-9a5f-2fcee562ae79:
+  a1158e5b-0fd2-47a1-8f05-1a74a5d29b31:
     cardThumbAlignment: end
     tabs:
       -
@@ -25,13 +26,13 @@ fieldLayouts:
             orientation: null
             placeholder: null
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\assets\AssetTitleField
-            uid: e63ac529-bcd8-4d14-b918-e8773a7f5f88
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 3dd30f7f-bea1-4a6c-b168-b4aaf93e14b4
             userCondition: null
             warning: null
             width: 100
@@ -40,27 +41,46 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 6d50a3fb-c0da-4bf2-8403-375c667bdc57 # Image Alt Text
+            fieldUid: 86bdf1c6-40a2-45a8-b62f-eb1162f3fb34 # Lead Text
             handle: null
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 875e299b-d97c-408f-be5d-800c094c95b5
+            uid: 14184eeb-3b1c-4b1c-8bad-15bb54270ec2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 8b634a68-f395-496d-85d1-7519546717e8 # Content Blocks
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6fbd9f19-dc44-4d63-a890-0c3c6deda0fb
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1199208e-9b0b-4b81-854d-1be41d0c988b
+        uid: ccaa5979-4d9b-4a61-8388-167cefee95b2
         userCondition: null
     thumbFieldKey: null
-fs: r2
-handle: assets
-name: Assets
-sortOrder: 1
-subpath: ''
+handle: topicPage
+hasTitleField: true
+icon: file-lines
+name: 'Topic Page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-transformFs: null
-transformSubpath: ''
+uiLabelFormat: '{title}'

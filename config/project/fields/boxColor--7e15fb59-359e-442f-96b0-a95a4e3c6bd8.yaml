@@ -1,0 +1,96 @@
+columnSuffix: null
+handle: boxColor
+instructions: null
+name: 'Box Color'
+searchable: false
+settings:
+  customOptions: false
+  iconsOnly: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Weiss
+        -
+          - value
+          - white
+        -
+          - icon
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Hellblau
+        -
+          - value
+          - lightblue
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Rot – Rechtliches/Schweiz'
+        -
+          - value
+          - rose
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Grün – Handlungsaufforderung'
+        -
+          - value
+          - green
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Blau – Info'
+        -
+          - value
+          - blue
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Lila – Alarm/wichtig'
+        -
+          - value
+          - lilac
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\ButtonGroup

@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL/fr
+enabled: '1'
+handle: fr
+hasUrls: true
+language: fr
+name: 'Digital Violence Info FR'
+primary: false
+siteGroup: 502ff4d7-71bf-40cc-b1b5-caabca315bb8 # Digital Violence Info
+sortOrder: 2

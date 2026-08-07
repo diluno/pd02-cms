@@ -1,0 +1,26 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 7698ec6a-034e-4b9c-8ff7-55f537e1c721 # Home
+handle: home
+maxAuthors: 1
+minAuthors: 1
+name: Home
+previewTargets:
+  -
+    label: 'Primary entry page'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  9186fc99-f192-4ddd-8e4f-e04484542d2f: # Digital Violence Info
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: __home__
+  bc64f211-3a29-4c79-8a01-314a93023384: # Digital Violence Info FR
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: __home__
+type: single

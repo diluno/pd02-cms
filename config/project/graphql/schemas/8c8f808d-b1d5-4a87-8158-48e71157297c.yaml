@@ -1,6 +1,24 @@
 isPublic: true
 name: 'Public Schema'
 scope:
+  - 'directive:parseRefs'
+  - 'directive:transform'
+  - 'elements.drafts:read'
+  - 'elements.inactive:read'
+  - 'elements.revisions:read'
+  - 'globalsets.ac7683f2-3f6f-4129-8552-93b11dd5f3b8:read' # Translations
+  - 'globalsets.b12bce77-7dce-4528-983a-a53ede97ec7b:read' # General
+  - 'nestedentryfields.4f5e2019-880b-4ad9-ad37-5a48690f88fc:read' # Footer Links
+  - 'nestedentryfields.6abbe8c1-e07c-4905-8ca3-a7c6f420c6a2:read' # Boxes
+  - 'nestedentryfields.86bdf1c6-40a2-45a8-b62f-eb1162f3fb34:read' # Lead Text
+  - 'nestedentryfields.8b634a68-f395-496d-85d1-7519546717e8:read' # Content Blocks
+  - 'nestedentryfields.9126ed28-5fbe-473b-8864-726493606158:read' # Richtext
+  - 'nestedentryfields.9a370eee-9387-4964-b2c6-9d6f34f4ec6a:read' # Header Navigation
+  - 'nestedentryfields.a7feb6ec-ce9b-45c5-9343-047045c744a5:read' # Accordion Items
+  - 'nestedentryfields.e7d26042-470b-4891-a117-7cb38fb3e7d6:read' # Link Items
+  - 'sections.5e30556c-9420-447e-8d42-743da2d6e4e6:read' # Home
+  - 'sections.6b3cf257-2d9e-4325-84b6-ae6d81f904cc:read' # Pages
   - 'sites.9186fc99-f192-4ddd-8e4f-e04484542d2f:read' # Digital Violence Info
+  - 'sites.bc64f211-3a29-4c79-8a01-314a93023384:read' # Digital Violence Info FR
   - 'usergroups.everyone:read'
-  - 'volumes.ba207dc3-abc5-4588-9f0e-85edd741e210:read'
+  - 'volumes.ba207dc3-abc5-4588-9f0e-85edd741e210:read' # Assets
