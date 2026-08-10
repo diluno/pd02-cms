@@ -12,6 +12,11 @@ settings:
       __assoc__:
         -
           - uid
+          - b53013ce-8ce8-4323-89db-febc535fdf6d # Hero Statement
+    -
+      __assoc__:
+        -
+          - uid
           - 4876a699-ed15-4eae-9ccb-bf49c64d59db # Section Label
     -
       __assoc__:

@@ -1,4 +1,4 @@
-dateModified: 1786107429
+dateModified: 1786353492
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -47,6 +47,7 @@ meta:
     ac7683f2-3f6f-4129-8552-93b11dd5f3b8: Translations # Translations
     b12bce77-7dce-4528-983a-a53ede97ec7b: General # General
     b718c161-0f10-4232-923b-ba8ca52dfdd0: 'Alert Bar' # Alert Bar
+    b53013ce-8ce8-4323-89db-febc535fdf6d: 'Hero Statement' # Hero Statement
     ba207dc3-abc5-4588-9f0e-85edd741e210: Assets # Assets
     bc64f211-3a29-4c79-8a01-314a93023384: 'Digital Violence Info FR' # Digital Violence Info FR
     bfeb0a53-2343-4e7b-a6ba-e6c66f1c1212: 'Accordion Item' # Accordion Item
