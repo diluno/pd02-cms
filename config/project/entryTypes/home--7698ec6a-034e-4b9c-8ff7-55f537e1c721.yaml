@@ -13,6 +13,22 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
+            fieldUid: 6b4b5506-4547-4ce8-a097-175326f62438 # Hero Statement
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1a34839f-0b71-4bd6-a88d-91e9be3d0c3e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
             fieldUid: 86bdf1c6-40a2-45a8-b62f-eb1162f3fb34 # Lead Text
             handle: null
             instructions: null

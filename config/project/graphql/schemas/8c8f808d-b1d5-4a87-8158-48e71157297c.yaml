@@ -9,6 +9,7 @@ scope:
   - 'globalsets.ac7683f2-3f6f-4129-8552-93b11dd5f3b8:read' # Translations
   - 'globalsets.b12bce77-7dce-4528-983a-a53ede97ec7b:read' # General
   - 'nestedentryfields.4f5e2019-880b-4ad9-ad37-5a48690f88fc:read' # Footer Links
+  - 'nestedentryfields.6b4b5506-4547-4ce8-a097-175326f62438:read' # Hero Statement
   - 'nestedentryfields.6abbe8c1-e07c-4905-8ca3-a7c6f420c6a2:read' # Boxes
   - 'nestedentryfields.86bdf1c6-40a2-45a8-b62f-eb1162f3fb34:read' # Lead Text
   - 'nestedentryfields.8b634a68-f395-496d-85d1-7519546717e8:read' # Content Blocks

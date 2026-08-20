@@ -62,6 +62,7 @@ function nested(Entry $owner, $field, string $typeHandle, array $values, ?string
 $home = Entry::find()->section('home')->siteId($siteId)->one();
 if ($home) {
     $home->setFieldValues([
+        'heroStatement' => 'Digitale Gewalt ist echte Gewalt – und sie verstärkt bestehende Muster',
         'leadText' => '<p>Was online passiert, hat reale Folgen. Digitale Gewalt '
             . 'verstärkt bestehende Gewaltdynamiken und trifft Betroffene rund um '
             . 'die Uhr: zu Hause, bei der Arbeit, im sozialen Umfeld.</p>',

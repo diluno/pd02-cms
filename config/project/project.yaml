@@ -1,4 +1,4 @@
-dateModified: 1787146375
+dateModified: 1787238187
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -21,6 +21,7 @@ meta:
     5e30556c-9420-447e-8d42-743da2d6e4e6: Home # Home
     6abbe8c1-e07c-4905-8ca3-a7c6f420c6a2: Boxes # Boxes
     6b3cf257-2d9e-4325-84b6-ae6d81f904cc: Pages # Pages
+    6b4b5506-4547-4ce8-a097-175326f62438: 'Hero Statement' # Hero Statement
     6d50a3fb-c0da-4bf2-8403-375c667bdc57: 'Image Alt Text' # Image Alt Text
     7da63e3c-e5dc-4c0f-9248-9832c1ef5c3c: Accordion # Accordion
     7e15fb59-359e-442f-96b0-a95a4e3c6bd8: 'Box Color' # Box Color
@@ -47,7 +48,6 @@ meta:
     ac7683f2-3f6f-4129-8552-93b11dd5f3b8: Translations # Translations
     b12bce77-7dce-4528-983a-a53ede97ec7b: General # General
     b718c161-0f10-4232-923b-ba8ca52dfdd0: 'Alert Bar' # Alert Bar
-    b53013ce-8ce8-4323-89db-febc535fdf6d: 'Hero Statement' # Hero Statement
     ba207dc3-abc5-4588-9f0e-85edd741e210: Assets # Assets
     bc64f211-3a29-4c79-8a01-314a93023384: 'Digital Violence Info FR' # Digital Violence Info FR
     bfeb0a53-2343-4e7b-a6ba-e6c66f1c1212: 'Accordion Item' # Accordion Item

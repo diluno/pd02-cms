@@ -214,6 +214,13 @@ $leadText = field(new CkeditorField([
     'translationMethod' => 'site',
 ]));
 
+$heroStatement = field(new PlainText([
+    'handle' => 'heroStatement',
+    'name' => 'Hero Statement',
+    'multiline' => true,
+    'translationMethod' => 'site',
+]));
+
 $richtext = field(new CkeditorField([
     'handle' => 'richtext',
     'name' => 'Richtext',
@@ -417,7 +424,7 @@ if (!$homeType) {
         'showSlugField' => false,
         'showStatusField' => true,
     ]);
-    $homeType->setFieldLayout(layout([$leadText, $contentBlocks], false));
+    $homeType->setFieldLayout(layout([$heroStatement, $leadText, $contentBlocks], false));
     if (!$entriesService->saveEntryType($homeType)) {
         throw new Exception('home entry type: ' . json_encode($homeType->getErrors()));
     }
