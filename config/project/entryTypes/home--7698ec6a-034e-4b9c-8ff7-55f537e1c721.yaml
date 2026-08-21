@@ -9,6 +9,34 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f289e510-088a-47da-a86a-7c57bd5143f5
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: null
             editCondition: null
             elementCondition: null
@@ -61,14 +89,14 @@ fieldLayouts:
         userCondition: null
     thumbFieldKey: null
 handle: home
-hasTitleField: false
+hasTitleField: true
 icon: house
 name: Home
 showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 uiLabelFormat: '{title}'

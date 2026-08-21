@@ -419,12 +419,11 @@ if (!$homeType) {
         'handle' => 'home',
         'name' => 'Home',
         'icon' => 'house',
-        'hasTitleField' => false,
-        'titleFormat' => '{section.name|raw}',
+        'hasTitleField' => true,
         'showSlugField' => false,
         'showStatusField' => true,
     ]);
-    $homeType->setFieldLayout(layout([$heroStatement, $leadText, $contentBlocks], false));
+    $homeType->setFieldLayout(layout([$heroStatement, $leadText, $contentBlocks]));
     if (!$entriesService->saveEntryType($homeType)) {
         throw new Exception('home entry type: ' . json_encode($homeType->getErrors()));
     }
