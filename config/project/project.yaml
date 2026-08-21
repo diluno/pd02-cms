@@ -1,4 +1,4 @@
-dateModified: 1787315478
+dateModified: 1787315772
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -15,6 +15,7 @@ meta:
   __names__:
     3ac961aa-61c3-4e44-9448-8b1aedcb3291: 'Footer Link' # Footer Link
     3b25fa09-d5ea-4370-8882-4699bf4d7083: Box # Box
+    3d3f3305-04d5-49d2-8b1c-224e2b67442a: 'Alert Icon' # Alert Icon
     4cc4a54e-f92c-415e-91f9-2e0868f78cf5: Spacer # Spacer
     4f5e2019-880b-4ad9-ad37-5a48690f88fc: 'Footer Links' # Footer Links
     5e8b5399-82b0-43b4-9bea-6fc0889b9675: 'CTA Link' # CTA Link
