@@ -9,7 +9,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:28+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
@@ -23,9 +23,9 @@ fieldLayouts:
             uid: 6b8777b6-458c-4027-a279-27088c6393e9
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:28+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
@@ -39,9 +39,9 @@ fieldLayouts:
             uid: 6c1cb39b-e978-4af8-8b06-6676223d5f69
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:28+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null

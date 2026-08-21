@@ -13,7 +13,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:41+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -37,7 +37,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:41+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
@@ -51,9 +51,9 @@ fieldLayouts:
             uid: d153ff0b-5caa-4e01-b8e7-943763dd20b2
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:41+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
@@ -69,7 +69,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:41+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
@@ -83,9 +83,9 @@ fieldLayouts:
             uid: ff4e82bf-baa2-40f4-ac44-8344635289b1
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:41+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
@@ -99,9 +99,9 @@ fieldLayouts:
             uid: cd3e61e4-6e6a-4c4e-9dfb-3ddfa4cdea4c
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
-            dateAdded: null
+            dateAdded: '2026-08-21T12:41:41+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
