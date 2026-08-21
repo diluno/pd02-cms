@@ -1,4 +1,4 @@
-dateModified: 1787320228
+dateModified: 1787321954
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -39,6 +39,7 @@ meta:
     8c95832e-cbec-4bdf-92da-4bbb9b41ddcd: 'Box Width' # Box Width
     8f3bf552-c9d6-4375-a78f-11c34b5326b7: 'Link Item' # Link Item
     11ff9d01-ee6d-4f0c-a8b2-855ce32818a3: 'Image with Caption' # Image with Caption
+    53b75019-1c0f-4121-ade7-e7650c245b5a: Editors # Editors
     83bdf192-e837-424f-b13b-d3e71f3f4199: 'SEO Description' # SEO Description
     86bdf1c6-40a2-45a8-b62f-eb1162f3fb34: 'Lead Text' # Lead Text
     0381f550-8224-4fbc-a3c8-a1d70ecb63c9: 'Spacer Size' # Spacer Size
@@ -85,10 +86,3 @@ system:
   retryDuration: null
   schemaVersion: 5.10.0.0
   timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  require2fa: false
-  requireEmailVerification: true

@@ -1,0 +1,42 @@
+description: null
+handle: editors
+name: Editors
+permissions:
+  - accesscp
+  - assignuserpermissions
+  - 'changeauthorforpeerentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'createentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'createfolders:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'deleteassets:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'deleteentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'deletepeerassets:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'deletepeerentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'deletepeerentrydrafts:5e30556c-9420-447e-8d42-743da2d6e4e6' # Home
+  - 'deletepeerentrydrafts:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - deleteusers
+  - 'editglobalset:b12bce77-7dce-4528-983a-a53ede97ec7b' # General
+  - 'editimages:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'editpeerimages:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'editsite:9186fc99-f192-4ddd-8e4f-e04484542d2f' # Digital Violence Info
+  - 'editsite:bc64f211-3a29-4c79-8a01-314a93023384' # Digital Violence Info FR
+  - editusers
+  - impersonateusers
+  - moderateusers
+  - registerusers
+  - 'replacefiles:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'replacepeerfiles:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'saveassets:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'saveentries:5e30556c-9420-447e-8d42-743da2d6e4e6' # Home
+  - 'saveentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'savepeerassets:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'savepeerentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'savepeerentrydrafts:5e30556c-9420-447e-8d42-743da2d6e4e6' # Home
+  - 'savepeerentrydrafts:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'viewassets:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'viewentries:5e30556c-9420-447e-8d42-743da2d6e4e6' # Home
+  - 'viewentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'viewpeerassets:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'viewpeerentries:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - 'viewpeerentrydrafts:5e30556c-9420-447e-8d42-743da2d6e4e6' # Home
+  - 'viewpeerentrydrafts:6b3cf257-2d9e-4325-84b6-ae6d81f904cc' # Pages
+  - viewusers
