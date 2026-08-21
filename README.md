@@ -22,7 +22,13 @@
   a site request so the GraphQL route keeps working.
 - **GraphQL** — `/api` (routed in [`config/routes.php`](config/routes.php)),
   served from Craft's **public schema**. Anything the frontend needs must be
-  enabled on that schema.
+  enabled on that schema. The public schema is deliberately limited to live
+  site content and assets; users, drafts, inactive entries and revisions are
+  not exposed. Browser requests go through the frontend's server-side proxy.
+
+The Home and Topic Page entry types each have an **SEO** tab with a translated
+description and optional social image. Navigation order comes from the Pages
+structure; editors only manage footer links in the General global set.
 
 ## Local development
 

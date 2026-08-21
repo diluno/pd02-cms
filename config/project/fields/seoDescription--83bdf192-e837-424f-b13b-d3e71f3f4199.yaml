@@ -1,14 +1,14 @@
 columnSuffix: null
-handle: singleLineText
-instructions: null
-name: 'Single Line Text'
+handle: seoDescription
+instructions: 'Optional search and social description. Keep it concise; lead text is used as a fallback.'
+name: 'SEO Description'
 searchable: false
 settings:
   byteLimit: null
-  charLimit: null
+  charLimit: 160
   code: false
   initialRows: 4
-  multiline: false
+  multiline: true
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

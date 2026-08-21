@@ -10,22 +10,6 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 9a370eee-9387-4964-b2c6-9d6f34f4ec6a # Header Navigation
-            handle: null
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c76a05fe-a1a7-4f47-888e-b5255c75341d
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: null
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
             fieldUid: 4f5e2019-880b-4ad9-ad37-5a48690f88fc # Footer Links
             handle: null
             instructions: null

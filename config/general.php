@@ -25,6 +25,9 @@ return GeneralConfig::create()
     ->loginPath(false)
     // Enable the Twig sandbox for system messages, etc.
     ->enableTwigSandbox()
+    // Browser clients use the frontend's server-side proxy, so the CMS API
+    // does not need cross-origin browser access.
+    ->allowedGraphqlOrigins(false)
     // Set the @webroot alias so the clear-caches command knows where to find CP resources
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/web',

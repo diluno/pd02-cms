@@ -24,12 +24,4 @@ use craft\helpers\App;
 
 return [
     'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
-    'as corsFilter' => [
-        'class' => \craft\filters\Cors::class,
-        'actions' => [
-            'graphql/api' => [
-                'Origin' => ['http://localhost:3000'],
-            ],
-        ],
-    ],
 ];

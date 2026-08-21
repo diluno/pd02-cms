@@ -98,6 +98,29 @@ function layout(array $fields, bool $withTitle = true, string $elementType = Ent
     return $layout;
 }
 
+/** Adds a dedicated SEO tab to a standard entry layout. */
+function layoutWithSeo(
+    array $contentFields,
+    craft\base\FieldInterface $seoDescription,
+    craft\base\FieldInterface $seoImage,
+    bool $withTitle = true
+): FieldLayout {
+    $layout = layout($contentFields, $withTitle);
+    $tabs = $layout->getTabs();
+
+    $seoTab = new FieldLayoutTab(['name' => 'SEO', 'sortOrder' => count($tabs) + 1]);
+    $seoTab->setLayout($layout);
+    $seoTab->setElements([
+        new CustomField($seoDescription),
+        new CustomField($seoImage),
+    ]);
+
+    $tabs[] = $seoTab;
+    $layout->setTabs($tabs);
+
+    return $layout;
+}
+
 /**
  * Saves an entry type unless its handle is taken, and returns it either way.
  */
@@ -232,10 +255,12 @@ $richtext = field(new CkeditorField([
     'translationMethod' => 'site',
 ]));
 
-$singleLineText = field(new PlainText([
-    'handle' => 'singleLineText',
-    'name' => 'Single Line Text',
-    'multiline' => false,
+$seoDescription = field(new PlainText([
+    'handle' => 'seoDescription',
+    'name' => 'SEO Description',
+    'instructions' => 'Optional search and social description. Keep it concise; lead text is used as a fallback.',
+    'multiline' => true,
+    'charLimit' => 160,
     'translationMethod' => 'site',
 ]));
 
@@ -347,6 +372,14 @@ $image = field(new Assets(array_merge($assetSettings, [
     'defaultUploadLocationSubpath' => 'images',
 ])));
 
+$seoImage = field(new Assets(array_merge($assetSettings, [
+    'handle' => 'seoImage',
+    'name' => 'SEO Image',
+    'instructions' => 'Optional image for link previews and social sharing.',
+    'maxRelations' => 1,
+    'defaultUploadLocationSubpath' => 'seo',
+])));
+
 $linkSettings = [
     'types' => ['entry', 'url', 'asset'],
     'showLabelField' => true,
@@ -372,7 +405,6 @@ info('Leaf block entry types');
 $boxType = entryType('box', 'Box', [$boxColor, $richtext, $boxIcon, $image, $ctaLink], true, 'square');
 $accordionItemType = entryType('accordionItem', 'Accordion Item', [$richtext], true, 'list');
 $linkItemType = entryType('linkItem', 'Link Item', [$itemLink], true, 'link');
-$navigationLinkType = entryType('navigationLink', 'Navigation Link', [$itemLink], true, 'link');
 $footerLinkType = entryType('footerLink', 'Footer Link', [$itemLink], true, 'link');
 
 // ---------------------------------------------------------------------------
@@ -384,7 +416,6 @@ info('Container matrix fields');
 $boxes = field(matrix('boxes', 'Boxes', [$boxType]));
 $accordionItems = field(matrix('accordionItems', 'Accordion Items', [$accordionItemType]));
 $linkItems = field(matrix('linkItems', 'Link Items', [$linkItemType]));
-$headerNavigation = field(matrix('headerNavigation', 'Header Navigation', [$navigationLinkType]));
 $footerLinks = field(matrix('footerLinks', 'Footer Links', [$footerLinkType]));
 
 // ---------------------------------------------------------------------------
@@ -423,7 +454,11 @@ if (!$homeType) {
         'showSlugField' => false,
         'showStatusField' => true,
     ]);
-    $homeType->setFieldLayout(layout([$heroStatement, $leadText, $contentBlocks]));
+    $homeType->setFieldLayout(layoutWithSeo(
+        [$heroStatement, $leadText, $contentBlocks],
+        $seoDescription,
+        $seoImage
+    ));
     if (!$entriesService->saveEntryType($homeType)) {
         throw new Exception('home entry type: ' . json_encode($homeType->getErrors()));
     }
@@ -442,7 +477,12 @@ if (!$topicPageType) {
         'showSlugField' => true,
         'showStatusField' => true,
     ]);
-    $topicPageType->setFieldLayout(layout([$leadText, $contentBlocks], true));
+    $topicPageType->setFieldLayout(layoutWithSeo(
+        [$leadText, $contentBlocks],
+        $seoDescription,
+        $seoImage,
+        true
+    ));
     if (!$entriesService->saveEntryType($topicPageType)) {
         throw new Exception('topicPage entry type: ' . json_encode($topicPageType->getErrors()));
     }
@@ -520,24 +560,13 @@ $globalsService = Craft::$app->getGlobals();
 
 if (!$globalsService->getSetByHandle('general')) {
     $general = new GlobalSetElement(['handle' => 'general', 'name' => 'General']);
-    $general->setFieldLayout(layout([$headerNavigation, $footerLinks], false, GlobalSetElement::class));
+    $general->setFieldLayout(layout([$footerLinks], false, GlobalSetElement::class));
     if (!$globalsService->saveSet($general)) {
         throw new Exception('general global set: ' . json_encode($general->getErrors()));
     }
     info('  ✓ global set general');
 } else {
     info('  · global set general exists, skipping');
-}
-
-if (!$globalsService->getSetByHandle('translations')) {
-    $translations = new GlobalSetElement(['handle' => 'translations', 'name' => 'Translations']);
-    $translations->setFieldLayout(layout([$singleLineText], false, GlobalSetElement::class));
-    if (!$globalsService->saveSet($translations)) {
-        throw new Exception('translations global set: ' . json_encode($translations->getErrors()));
-    }
-    info('  ✓ global set translations');
-} else {
-    info('  · global set translations exists, skipping');
 }
 
 // ---------------------------------------------------------------------------
@@ -591,10 +620,6 @@ $gql = Craft::$app->getGql();
 $publicSchema = $gql->getPublicSchema();
 
 $scope = [
-    'elements.drafts:read',
-    'elements.revisions:read',
-    'elements.inactive:read',
-    'usergroups.everyone:read',
     'directive:transform',
     'directive:parseRefs',
 ];

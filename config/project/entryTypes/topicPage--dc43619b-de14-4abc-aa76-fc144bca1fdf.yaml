@@ -71,6 +71,44 @@ fieldLayouts:
         name: Content
         uid: ccaa5979-4d9b-4a61-8388-167cefee95b2
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 83bdf192-e837-424f-b13b-d3e71f3f4199 # SEO Description
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eb281f29-2d38-4573-a7e1-38789bd7afd9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: b77edfd0-043c-470a-9805-e7d2e8ab1ddf # SEO Image
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3280108c-81e7-41c6-991d-0d34125ecadf
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 7b9cc6b4-7f82-40f6-9fd9-9434840f07fd
+        userCondition: null
     thumbFieldKey: null
 handle: topicPage
 hasTitleField: true

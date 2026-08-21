@@ -1,4 +1,4 @@
-dateModified: 1787317791
+dateModified: 1787320228
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -38,8 +38,8 @@ meta:
     8c8f808d-b1d5-4a87-8158-48e71157297c: 'Public Schema' # Public Schema
     8c95832e-cbec-4bdf-92da-4bbb9b41ddcd: 'Box Width' # Box Width
     8f3bf552-c9d6-4375-a78f-11c34b5326b7: 'Link Item' # Link Item
-    9a370eee-9387-4964-b2c6-9d6f34f4ec6a: 'Header Navigation' # Header Navigation
     11ff9d01-ee6d-4f0c-a8b2-855ce32818a3: 'Image with Caption' # Image with Caption
+    83bdf192-e837-424f-b13b-d3e71f3f4199: 'SEO Description' # SEO Description
     86bdf1c6-40a2-45a8-b62f-eb1162f3fb34: 'Lead Text' # Lead Text
     0381f550-8224-4fbc-a3c8-a1d70ecb63c9: 'Spacer Size' # Spacer Size
     502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
@@ -50,17 +50,15 @@ meta:
     9186fc99-f192-4ddd-8e4f-e04484542d2f: 'Digital Violence Info' # Digital Violence Info
     57443ee2-995c-42ae-aa86-c4944dfedea2: Caption # Caption
     62614b94-2c26-4f6f-8748-9285c22daf37: Image # Image
-    327668e8-109a-45f2-9aec-268727c53c87: 'Navigation Link' # Navigation Link
     7009856f-759c-4bcd-9df3-d35151327e2f: Richtext # Richtext
     30689186-766e-4528-8bd2-0c73394dba60: 'Box Group' # Box Group
     a7feb6ec-ce9b-45c5-9343-047045c744a5: 'Accordion Items' # Accordion Items
-    ac7683f2-3f6f-4129-8552-93b11dd5f3b8: Translations # Translations
     b12bce77-7dce-4528-983a-a53ede97ec7b: General # General
+    b77edfd0-043c-470a-9805-e7d2e8ab1ddf: 'SEO Image' # SEO Image
     b718c161-0f10-4232-923b-ba8ca52dfdd0: 'Alert Bar' # Alert Bar
     ba207dc3-abc5-4588-9f0e-85edd741e210: Assets # Assets
     bc64f211-3a29-4c79-8a01-314a93023384: 'Digital Violence Info FR' # Digital Violence Info FR
     bfeb0a53-2343-4e7b-a6ba-e6c66f1c1212: 'Accordion Item' # Accordion Item
-    cdd308a2-f490-4b31-a9dc-1237438c9cb9: 'Single Line Text' # Single Line Text
     d88ad519-a115-4bed-8762-e4127633bece: 'Link List' # Link List
     d97c0326-e5c2-4615-8e72-0e53c3a6b957: Link # Link
     dc43619b-de14-4abc-aa76-fc144bca1fdf: 'Topic Page' # Topic Page
