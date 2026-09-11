@@ -4,6 +4,8 @@ instructions: null
 name: Richtext
 searchable: false
 settings:
+  advancedLinkFields:
+    - target
   availableTransforms: ''
   availableVolumes: '*'
   characterLimit: null

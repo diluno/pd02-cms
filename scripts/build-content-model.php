@@ -230,6 +230,7 @@ $leadText = field(new CkeditorField([
     'handle' => 'leadText',
     'name' => 'Lead Text',
     'purifyHtml' => true,
+    'advancedLinkFields' => ['target'],
     'headingLevels' => [2, 3, 4],
     'toolbar' => $ckToolbar,
     'availableVolumes' => '*',
@@ -248,6 +249,7 @@ $richtext = field(new CkeditorField([
     'handle' => 'richtext',
     'name' => 'Richtext',
     'purifyHtml' => true,
+    'advancedLinkFields' => ['target'],
     'headingLevels' => [2, 3, 4],
     'toolbar' => $ckToolbar,
     'availableVolumes' => '*',
@@ -382,6 +384,7 @@ $seoImage = field(new Assets(array_merge($assetSettings, [
 
 $linkSettings = [
     'types' => ['entry', 'url', 'asset'],
+    'advancedFields' => ['target'],
     'showLabelField' => true,
     'translationMethod' => 'site',
 ];

@@ -4,6 +4,8 @@ instructions: null
 name: Link
 searchable: false
 settings:
+  advancedFields:
+    - target
   fullGraphqlData: true
   maxLength: 255
   showLabelField: true
