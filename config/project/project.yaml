@@ -1,4 +1,4 @@
-dateModified: 1789125608
+dateModified: 1789131598
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -84,5 +84,5 @@ system:
   live: true
   name: 'Digital Violence Info'
   retryDuration: null
-  schemaVersion: 5.10.0.0
+  schemaVersion: 5.11.0.2
   timeZone: America/Los_Angeles
