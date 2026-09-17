@@ -325,6 +325,7 @@ $imageFit = field(new ButtonGroup([
     'options' => [
         option('Cover', 'cover', true),
         option('Contain', 'contain'),
+        option('Cover (Match Row Height)', 'coverMatchHeight'),
     ],
 ]));
 

@@ -35,6 +35,20 @@ settings:
         -
           - default
           - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Cover (Match Row Height)'
+        -
+          - value
+          - coverMatchHeight
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\ButtonGroup

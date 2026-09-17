@@ -1,4 +1,4 @@
-dateModified: 1789652305
+dateModified: 1789652738
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -45,6 +45,7 @@ meta:
     86bdf1c6-40a2-45a8-b62f-eb1162f3fb34: 'Lead Text' # Lead Text
     0381f550-8224-4fbc-a3c8-a1d70ecb63c9: 'Spacer Size' # Spacer Size
     502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
+    696e21c7-da5c-4165-84b3-06834f2ecd8a: 'Image Box' # Image Box
     4876a699-ed15-4eae-9ccb-bf49c64d59db: 'Section Label' # Section Label
     5052c3cc-7375-4297-b3f7-0aea9ba6a6f2: 'Alert Color' # Alert Color
     7698ec6a-034e-4b9c-8ff7-55f537e1c721: Home # Home
@@ -52,7 +53,6 @@ meta:
     9186fc99-f192-4ddd-8e4f-e04484542d2f: 'Digital Violence Info' # Digital Violence Info
     57443ee2-995c-42ae-aa86-c4944dfedea2: Caption # Caption
     62614b94-2c26-4f6f-8748-9285c22daf37: Image # Image
-    696e21c7-da5c-4165-84b3-06834f2ecd8a: 'Image Box' # Image Box
     7009856f-759c-4bcd-9df3-d35151327e2f: Richtext # Richtext
     30689186-766e-4528-8bd2-0c73394dba60: 'Box Group' # Box Group
     a7feb6ec-ce9b-45c5-9343-047045c744a5: 'Accordion Items' # Accordion Items
