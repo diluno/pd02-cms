@@ -318,6 +318,16 @@ $boxColor = field(new ButtonGroup([
     ],
 ]));
 
+$imageFit = field(new ButtonGroup([
+    'handle' => 'imageFit',
+    'name' => 'Image Fit',
+    'translationMethod' => 'none',
+    'options' => [
+        option('Cover', 'cover', true),
+        option('Contain', 'contain'),
+    ],
+]));
+
 $alertColor = field(new ButtonGroup([
     'handle' => 'alertColor',
     'name' => 'Alert Color',
@@ -406,6 +416,7 @@ $itemLink = field(new Link(array_merge($linkSettings, [
 info('Leaf block entry types');
 
 $boxType = entryType('box', 'Box', [$boxColor, $richtext, $boxIcon, $image, $ctaLink], true, 'square');
+$imageBoxType = entryType('imageBox', 'Image Box', [$image, $imageFit], false, 'image');
 $accordionItemType = entryType('accordionItem', 'Accordion Item', [$richtext], true, 'list');
 $linkItemType = entryType('linkItem', 'Link Item', [$itemLink], true, 'link');
 $footerLinkType = entryType('footerLink', 'Footer Link', [$itemLink], true, 'link');
@@ -416,7 +427,7 @@ $footerLinkType = entryType('footerLink', 'Footer Link', [$itemLink], true, 'lin
 
 info('Container matrix fields');
 
-$boxes = field(matrix('boxes', 'Boxes', [$boxType]));
+$boxes = field(matrix('boxes', 'Boxes', [$boxType, $imageBoxType]));
 $accordionItems = field(matrix('accordionItems', 'Accordion Items', [$accordionItemType]));
 $linkItems = field(matrix('linkItems', 'Link Items', [$linkItemType]));
 $footerLinks = field(matrix('footerLinks', 'Footer Links', [$footerLinkType]));

@@ -1,0 +1,40 @@
+columnSuffix: null
+handle: imageFit
+instructions: null
+name: 'Image Fit'
+searchable: false
+settings:
+  customOptions: false
+  iconsOnly: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Cover
+        -
+          - value
+          - cover
+        -
+          - icon
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Contain
+        -
+          - value
+          - contain
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\ButtonGroup

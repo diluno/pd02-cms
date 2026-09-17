@@ -1,4 +1,4 @@
-dateModified: 1789131598
+dateModified: 1789652305
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -26,6 +26,7 @@ meta:
     3d3f3305-04d5-49d2-8b1c-224e2b67442a: 'Alert Icon' # Alert Icon
     4cc4a54e-f92c-415e-91f9-2e0868f78cf5: Spacer # Spacer
     4f5e2019-880b-4ad9-ad37-5a48690f88fc: 'Footer Links' # Footer Links
+    5d5547b1-713d-44a0-9d3d-ccd93d7387b2: 'Image Fit' # Image Fit
     5e8b5399-82b0-43b4-9bea-6fc0889b9675: 'CTA Link' # CTA Link
     5e30556c-9420-447e-8d42-743da2d6e4e6: Home # Home
     6abbe8c1-e07c-4905-8ca3-a7c6f420c6a2: Boxes # Boxes
@@ -51,6 +52,7 @@ meta:
     9186fc99-f192-4ddd-8e4f-e04484542d2f: 'Digital Violence Info' # Digital Violence Info
     57443ee2-995c-42ae-aa86-c4944dfedea2: Caption # Caption
     62614b94-2c26-4f6f-8748-9285c22daf37: Image # Image
+    696e21c7-da5c-4165-84b3-06834f2ecd8a: 'Image Box' # Image Box
     7009856f-759c-4bcd-9df3-d35151327e2f: Richtext # Richtext
     30689186-766e-4528-8bd2-0c73394dba60: 'Box Group' # Box Group
     a7feb6ec-ce9b-45c5-9343-047045c744a5: 'Accordion Items' # Accordion Items

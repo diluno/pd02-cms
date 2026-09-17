@@ -13,6 +13,11 @@ settings:
         -
           - uid
           - 3b25fa09-d5ea-4370-8882-4699bf4d7083 # Box
+    -
+      __assoc__:
+        -
+          - uid
+          - 696e21c7-da5c-4165-84b3-06834f2ecd8a # Image Box
   includeTableView: false
   maxEntries: null
   minEntries: null
