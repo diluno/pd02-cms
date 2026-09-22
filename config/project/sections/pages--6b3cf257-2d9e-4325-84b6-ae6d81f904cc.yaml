@@ -14,6 +14,16 @@ previewTargets:
     urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
+  77a3f5bc-3a2a-46a0-8025-ba92569fcce9: # Digital Violence Info IT
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+  578f3ce9-31ff-4318-90bc-0a9f48ef5961: # Digital Violence Info EN
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
   9186fc99-f192-4ddd-8e4f-e04484542d2f: # Digital Violence Info
     enabledByDefault: true
     hasUrls: true

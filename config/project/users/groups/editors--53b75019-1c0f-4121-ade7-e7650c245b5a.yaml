@@ -17,6 +17,8 @@ permissions:
   - 'editglobalset:b12bce77-7dce-4528-983a-a53ede97ec7b' # General
   - 'editimages:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
   - 'editpeerimages:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
+  - 'editsite:578f3ce9-31ff-4318-90bc-0a9f48ef5961' # Digital Violence Info EN
+  - 'editsite:77a3f5bc-3a2a-46a0-8025-ba92569fcce9' # Digital Violence Info IT
   - 'editsite:9186fc99-f192-4ddd-8e4f-e04484542d2f' # Digital Violence Info
   - 'editsite:bc64f211-3a29-4c79-8a01-314a93023384' # Digital Violence Info FR
   - editusers
