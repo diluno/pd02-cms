@@ -52,8 +52,14 @@ frontend. Control panel is served from the site root (`CRAFT_CP` in
   production.
 
 ## Cron / queue
-- **No crontab** for `forge` — Craft's queue runs via web requests
-  (`runQueueAutomatically`). Add a queue runner before production.
+- **Forge background process** `daemon-1099199` ("craft queue"):
+  `php8.5 craft queue/listen --verbose` as `forge`, in `.../current`,
+  graceful shutdown 310s. Added 2026-09-22 after a web-triggered
+  propagation job hung and stalled the queue.
+- `CRAFT_RUN_QUEUE_AUTOMATICALLY=false` in server `.env`.
+- The daemon holds the release dir it started in — deploy script must run
+  `sudo -S supervisorctl restart daemon-1099199:*`.
+- No crontab for `forge`.
 
 ## Backups — ⚠️ NOT COVERED
 - **urmel has no restic setup** (`~/.restic-env` and `~/bin/backup-sites.sh`
