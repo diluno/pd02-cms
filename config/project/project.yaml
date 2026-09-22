@@ -1,4 +1,4 @@
-dateModified: 1790081466
+dateModified: 1790085222
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -21,6 +21,7 @@ fs:
     url: $CLOUDFLARE_R2_BASIS_URL
 meta:
   __names__:
+    2aa1a89e-ef92-417e-99de-d69535adcd7b: 'Allow Multiple Items Open' # Allow Multiple Items Open
     3ac961aa-61c3-4e44-9448-8b1aedcb3291: 'Footer Link' # Footer Link
     3b25fa09-d5ea-4370-8882-4699bf4d7083: Box # Box
     3d3f3305-04d5-49d2-8b1c-224e2b67442a: 'Alert Icon' # Alert Icon

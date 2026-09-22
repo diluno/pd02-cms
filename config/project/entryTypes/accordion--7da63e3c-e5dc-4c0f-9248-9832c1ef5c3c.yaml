@@ -13,6 +13,22 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
+            fieldUid: 2aa1a89e-ef92-417e-99de-d69535adcd7b # Allow Multiple Items Open
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e67e73a-da55-41c0-b431-f9c005d88e7a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
             fieldUid: a7feb6ec-ce9b-45c5-9343-047045c744a5 # Accordion Items
             handle: null
             instructions: null

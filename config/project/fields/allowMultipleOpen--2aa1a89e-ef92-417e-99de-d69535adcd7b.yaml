@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: allowMultipleOpen
+instructions: 'When enabled, visitors can keep more than one accordion item open at a time.'
+name: 'Allow Multiple Items Open'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
