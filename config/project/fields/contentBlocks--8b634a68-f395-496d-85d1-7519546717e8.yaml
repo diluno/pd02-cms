@@ -48,6 +48,11 @@ settings:
         -
           - uid
           - 4cc4a54e-f92c-415e-91f9-2e0868f78cf5 # Spacer
+    -
+      __assoc__:
+        -
+          - uid
+          - 67cd51cc-1bc8-43cf-9127-1cde56767436 # Downloads
   includeTableView: false
   maxEntries: null
   minEntries: null

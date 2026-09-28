@@ -14,6 +14,7 @@ scope:
   - 'nestedentryfields.8b634a68-f395-496d-85d1-7519546717e8:read' # Content Blocks
   - 'nestedentryfields.4f5e2019-880b-4ad9-ad37-5a48690f88fc:read' # Footer Links
   - 'nestedentryfields.e7d26042-470b-4891-a117-7cb38fb3e7d6:read' # Link Items
+  - 'nestedentryfields.698d45de-d708-4ab9-9f8c-46665d42e863:read' # Downloads
   - 'volumes.ba207dc3-abc5-4588-9f0e-85edd741e210:read' # Assets
   - 'globalsets.b12bce77-7dce-4528-983a-a53ede97ec7b:read' # General
   - 'directive:parseRefs'

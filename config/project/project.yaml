@@ -1,4 +1,4 @@
-dateModified: 1790085222
+dateModified: 1790624980
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -21,6 +21,7 @@ fs:
     url: $CLOUDFLARE_R2_BASIS_URL
 meta:
   __names__:
+    2a2bd160-f2fe-4202-9ebe-66e5cb732217: 'Download File' # Download File
     2aa1a89e-ef92-417e-99de-d69535adcd7b: 'Allow Multiple Items Open' # Allow Multiple Items Open
     3ac961aa-61c3-4e44-9448-8b1aedcb3291: 'Footer Link' # Footer Link
     3b25fa09-d5ea-4370-8882-4699bf4d7083: Box # Box
@@ -42,6 +43,7 @@ meta:
     8f3bf552-c9d6-4375-a78f-11c34b5326b7: 'Link Item' # Link Item
     11ff9d01-ee6d-4f0c-a8b2-855ce32818a3: 'Image with Caption' # Image with Caption
     53b75019-1c0f-4121-ade7-e7650c245b5a: Editors # Editors
+    67cd51cc-1bc8-43cf-9127-1cde56767436: Downloads # Downloads
     77a3f5bc-3a2a-46a0-8025-ba92569fcce9: 'Digital Violence Info IT' # Digital Violence Info IT
     83bdf192-e837-424f-b13b-d3e71f3f4199: 'SEO Description' # SEO Description
     86bdf1c6-40a2-45a8-b62f-eb1162f3fb34: 'Lead Text' # Lead Text
@@ -49,6 +51,7 @@ meta:
     502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
     578f3ce9-31ff-4318-90bc-0a9f48ef5961: 'Digital Violence Info EN' # Digital Violence Info EN
     696e21c7-da5c-4165-84b3-06834f2ecd8a: 'Image Box' # Image Box
+    698d45de-d708-4ab9-9f8c-46665d42e863: Downloads # Downloads
     4876a699-ed15-4eae-9ccb-bf49c64d59db: 'Section Label' # Section Label
     5052c3cc-7375-4297-b3f7-0aea9ba6a6f2: 'Alert Color' # Alert Color
     7698ec6a-034e-4b9c-8ff7-55f537e1c721: Home # Home
@@ -65,6 +68,8 @@ meta:
     ba207dc3-abc5-4588-9f0e-85edd741e210: Assets # Assets
     bc64f211-3a29-4c79-8a01-314a93023384: 'Digital Violence Info FR' # Digital Violence Info FR
     bfeb0a53-2343-4e7b-a6ba-e6c66f1c1212: 'Accordion Item' # Accordion Item
+    c0b402c5-966c-4283-a011-413b1095969d: 'Download Button Label' # Download Button Label
+    cd2f532e-e0c7-4375-b49e-1d7f66a76f83: Download # Download
     d88ad519-a115-4bed-8762-e4127633bece: 'Link List' # Link List
     d97c0326-e5c2-4615-8e72-0e53c3a6b957: Link # Link
     dc43619b-de14-4abc-aa76-fc144bca1fdf: 'Topic Page' # Topic Page

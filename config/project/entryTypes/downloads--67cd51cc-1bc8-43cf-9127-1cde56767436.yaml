@@ -1,0 +1,43 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  cc253d4a-fb45-4d5e-9d9e-e22d8266549a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 698d45de-d708-4ab9-9f8c-46665d42e863 # Downloads
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b257d001-b8f2-4083-a22e-b811e52b244a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f7acdc2c-cedb-4c3a-af91-77aab61f08ac
+        userCondition: null
+    thumbFieldKey: null
+handle: downloads
+hasTitleField: false
+icon: download
+name: Downloads
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'
