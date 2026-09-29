@@ -24,6 +24,44 @@ fieldLayouts:
         name: Content
         uid: 764f8b31-4631-4cbf-8d0c-11c2a8de431e
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 83bdf192-e837-424f-b13b-d3e71f3f4199 # SEO Description
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31cd1cbc-c3da-4be7-ab43-d619a49d6b64
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: b77edfd0-043c-470a-9805-e7d2e8ab1ddf # SEO Image
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b755eed5-559d-4c30-8094-5139f0a7f891
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: c2fa95ac-31c8-448a-83b7-4fbca8b14a0d
+        userCondition: null
     thumbFieldKey: null
 handle: general
 name: General
