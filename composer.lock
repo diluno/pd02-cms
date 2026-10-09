@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ab92f0ce098dd3df81e6b57400fd371",
+    "content-hash": "df6b86a0b0a4e1a1d4ea1c4fdeb2b2fa",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -382,16 +382,16 @@
         },
         {
             "name": "commerceguys/addressing",
-            "version": "v2.3.1",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/addressing.git",
-                "reference": "504ed1765d7a6788830c197390879d677f54d868"
+                "reference": "e3ce66714cfa181b848533d926e8583261253c9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/504ed1765d7a6788830c197390879d677f54d868",
-                "reference": "504ed1765d7a6788830c197390879d677f54d868",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/e3ce66714cfa181b848533d926e8583261253c9e",
+                "reference": "e3ce66714cfa181b848533d926e8583261253c9e",
                 "shasum": ""
             },
             "require": {
@@ -440,9 +440,9 @@
             ],
             "support": {
                 "issues": "https://github.com/commerceguys/addressing/issues",
-                "source": "https://github.com/commerceguys/addressing/tree/v2.3.1"
+                "source": "https://github.com/commerceguys/addressing/tree/v2.3.2"
             },
-            "time": "2026-08-23T14:17:54+00:00"
+            "time": "2026-10-09T10:50:35+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -724,11 +724,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.11.5",
+            "version": "5.11.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/1466cff748a98d574a78be32418bfd7b5ed25c3e",
-                "reference": "1466cff748a98d574a78be32418bfd7b5ed25c3e",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/b96d1a61aaba061594f53b4454e48a2d0bd41381",
+                "reference": "b96d1a61aaba061594f53b4454e48a2d0bd41381",
                 "shasum": ""
             },
             "require": {
@@ -828,7 +828,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2026-10-07T17:37:25+00:00"
+            "time": "2026-10-08T16:32:34+00:00"
         },
         {
             "name": "craftcms/flysystem",
