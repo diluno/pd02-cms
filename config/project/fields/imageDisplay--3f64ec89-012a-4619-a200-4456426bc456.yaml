@@ -1,6 +1,6 @@
 columnSuffix: null
 handle: imageDisplay
-instructions: 'Choose Logo for a logoer, centered image with padding.'
+instructions: 'Choose Logo for a smaller, centered image with padding.'
 name: 'Image Display'
 searchable: false
 settings:
