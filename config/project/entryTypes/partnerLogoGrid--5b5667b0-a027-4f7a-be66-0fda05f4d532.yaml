@@ -31,7 +31,7 @@ fieldLayouts:
     thumbFieldKey: null
 handle: partnerLogoGrid
 hasTitleField: false
-icon: null
+icon: grid
 name: 'Partner Logos'
 showSlugField: false
 showStatusField: true

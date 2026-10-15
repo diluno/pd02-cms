@@ -67,6 +67,7 @@ if (!$partnerType) {
     $partnerType = new EntryType([
         'handle' => 'partnerLogo',
         'name' => 'Partner Logo',
+        'icon' => 'image',
         'hasTitleField' => true,
         'titleTranslationMethod' => 'site',
         'showSlugField' => false,
@@ -104,6 +105,7 @@ if (!$gridType) {
     $gridType = new EntryType([
         'handle' => 'partnerLogoGrid',
         'name' => 'Partner Logos',
+        'icon' => 'grid',
         'hasTitleField' => false,
         'showSlugField' => false,
         'showStatusField' => true,

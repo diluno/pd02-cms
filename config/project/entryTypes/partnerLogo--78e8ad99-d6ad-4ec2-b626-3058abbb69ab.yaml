@@ -76,7 +76,7 @@ fieldLayouts:
     thumbFieldKey: null
 handle: partnerLogo
 hasTitleField: true
-icon: null
+icon: image
 name: 'Partner Logo'
 showSlugField: false
 showStatusField: true
