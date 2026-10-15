@@ -1,4 +1,4 @@
-dateModified: 1792080649
+dateModified: 1792081017
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -28,9 +28,11 @@ meta:
     3d3f3305-04d5-49d2-8b1c-224e2b67442a: 'Alert Icon' # Alert Icon
     4cc4a54e-f92c-415e-91f9-2e0868f78cf5: Spacer # Spacer
     4f5e2019-880b-4ad9-ad37-5a48690f88fc: 'Footer Links' # Footer Links
+    5b5667b0-a027-4f7a-be66-0fda05f4d532: 'Partner Logos' # Partner Logos
     5d5547b1-713d-44a0-9d3d-ccd93d7387b2: 'Image Fit' # Image Fit
     5e8b5399-82b0-43b4-9bea-6fc0889b9675: 'CTA Link' # CTA Link
     5e30556c-9420-447e-8d42-743da2d6e4e6: Home # Home
+    5f9060cd-8376-471c-9e71-c528b4d2c94b: 'Partner Logos' # Partner Logos
     6abbe8c1-e07c-4905-8ca3-a7c6f420c6a2: Boxes # Boxes
     6b3cf257-2d9e-4325-84b6-ae6d81f904cc: Pages # Pages
     6b4b5506-4547-4ce8-a097-175326f62438: 'Hero Statement' # Hero Statement
@@ -45,6 +47,7 @@ meta:
     53b75019-1c0f-4121-ade7-e7650c245b5a: Editors # Editors
     67cd51cc-1bc8-43cf-9127-1cde56767436: Downloads # Downloads
     77a3f5bc-3a2a-46a0-8025-ba92569fcce9: 'Digital Violence Info IT' # Digital Violence Info IT
+    78e8ad99-d6ad-4ec2-b626-3058abbb69ab: 'Partner Logo' # Partner Logo
     83bdf192-e837-424f-b13b-d3e71f3f4199: 'SEO Description' # SEO Description
     86bdf1c6-40a2-45a8-b62f-eb1162f3fb34: 'Lead Text' # Lead Text
     0381f550-8224-4fbc-a3c8-a1d70ecb63c9: 'Spacer Size' # Spacer Size

@@ -19,3 +19,4 @@ scope:
   - 'globalsets.b12bce77-7dce-4528-983a-a53ede97ec7b:read' # General
   - 'directive:parseRefs'
   - 'directive:transform'
+  - 'nestedentryfields.5f9060cd-8376-471c-9e71-c528b4d2c94b:read' # Partner Logos

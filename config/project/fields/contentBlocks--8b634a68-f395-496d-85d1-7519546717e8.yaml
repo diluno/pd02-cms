@@ -53,6 +53,11 @@ settings:
         -
           - uid
           - 67cd51cc-1bc8-43cf-9127-1cde56767436 # Downloads
+    -
+      __assoc__:
+        -
+          - uid
+          - 5b5667b0-a027-4f7a-be66-0fda05f4d532 # Partner Logos
   includeTableView: false
   maxEntries: null
   minEntries: null

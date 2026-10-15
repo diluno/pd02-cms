@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: partnerLogos
+instructions: 'Add partners in display order. The title is used as the accessible logo name. Wide logos automatically span two columns; images are never cropped.'
+name: 'Partner Logos'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 78e8ad99-d6ad-4ec2-b626-3058abbb69ab # Partner Logo
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

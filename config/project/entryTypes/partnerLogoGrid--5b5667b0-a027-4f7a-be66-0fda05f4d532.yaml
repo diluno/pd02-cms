@@ -1,0 +1,43 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  e02b2601-7828-4662-bd63-f6723f4c4c93:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 5f9060cd-8376-471c-9e71-c528b4d2c94b # Partner Logos
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 241457d7-6597-442b-a85f-84ac4b2c268e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8f02c323-7373-4fa0-9415-a4ac2d6177aa
+        userCondition: null
+    thumbFieldKey: null
+handle: partnerLogoGrid
+hasTitleField: false
+icon: null
+name: 'Partner Logos'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'
