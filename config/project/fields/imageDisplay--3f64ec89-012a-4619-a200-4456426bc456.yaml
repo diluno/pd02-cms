@@ -1,0 +1,40 @@
+columnSuffix: null
+handle: imageDisplay
+instructions: 'Choose Logo for a logoer, centered image with padding.'
+name: 'Image Display'
+searchable: false
+settings:
+  customOptions: false
+  iconsOnly: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Photo
+        -
+          - value
+          - photo
+        -
+          - icon
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Logo
+        -
+          - value
+          - logo
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\ButtonGroup

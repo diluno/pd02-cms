@@ -1,4 +1,4 @@
-dateModified: 1792081276
+dateModified: 1792096823
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -79,6 +79,7 @@ meta:
     dda23604-56f0-495a-a6ed-65d381685a99: 'Box Icon' # Box Icon
     e7d26042-470b-4891-a117-7cb38fb3e7d6: 'Link Items' # Link Items
     edc52aee-d522-46d1-a37c-cf539a0a28cf: 'Title Size' # Title Size
+    3f64ec89-012a-4619-a200-4456426bc456: 'Image Display' # Image Display
 plugins:
   ckeditor:
     edition: standard
