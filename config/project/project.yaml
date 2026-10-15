@@ -1,4 +1,4 @@
-dateModified: 1790624980
+dateModified: 1792080649
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -85,10 +85,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  mcp:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.4.0
 system:
   edition: pro
   live: true
