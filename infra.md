@@ -78,9 +78,14 @@ Two Laravel Forge–provisioned VPSes:
 
 ## Cron / queue
 - **Production (ace):** Forge daemon `daemon-1152197`,
-  `php8.5 craft queue/listen --verbose` in `.../current/`. The deploy script
-  should run `sudo -S supervisorctl restart daemon-1152197:*`, like staging
-  below (not verified at launch — check in Forge).
+  `php8.5 craft queue/listen --verbose` in `.../current/`, `stopwaitsecs=300` (raised from 15 on 2026-10-16), `stopasgroup=true` — same mid-deploy job-kill caveat as staging below. The deploy
+  script must run `sudo -S supervisorctl restart daemon-1152197:*` — note
+  the different daemon ID from staging. That line was missing at launch.
+- On launch day (2026-10-16) the daemon was started before the DB import,
+  crash-looped on missing tables and went **`FATAL`**; supervisor never
+  retries from FATAL, so no jobs ran until a manual restart. If
+  `sudo -n supervisorctl status` shows FATAL, check
+  `~/.forge/daemon-1152197.log`, then restart.
 - **Staging (urmel):** Forge background process `daemon-1099199` ("craft queue"):
   `php8.5 craft queue/listen --verbose` as `forge`, in `.../current`,
   graceful shutdown 310s. Added 2026-09-22 after a web-triggered
