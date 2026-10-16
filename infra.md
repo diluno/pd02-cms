@@ -26,8 +26,7 @@ Two Laravel Forge–provisioned VPSes:
 - **Push-to-deploy via Forge:** push to `main` on
   `git@github.com:diluno/pd02-cms.git` → Forge builds a new
   `releases/<numeric-id>` and swaps the `current` symlink (zero-downtime).
-  Staging auto-deploys; check in Forge whether production has Quick Deploy
-  on too (not verified at launch).
+  **Both staging and production auto-deploy on every push to `main`.**
   Deploy script lives in the Forge dashboard, not the repo.
 - **Never hot-patch the server** — opcache runs with
   `validate_timestamps = 0`, so in-place PHP edits are invisible until
@@ -80,7 +79,7 @@ Two Laravel Forge–provisioned VPSes:
 - **Production (ace):** Forge daemon `daemon-1152197`,
   `php8.5 craft queue/listen --verbose` in `.../current/`, `stopwaitsecs=300` (raised from 15 on 2026-10-16), `stopasgroup=true` — same mid-deploy job-kill caveat as staging below. The deploy
   script must run `sudo -S supervisorctl restart daemon-1152197:*` — note
-  the different daemon ID from staging. That line was missing at launch.
+  the different daemon ID from staging. Added after launch; verified on deploy 2026-10-16.
 - On launch day (2026-10-16) the daemon was started before the DB import,
   crash-looped on missing tables and went **`FATAL`**; supervisor never
   retries from FATAL, so no jobs ran until a manual restart. If
