@@ -60,6 +60,11 @@ frontend. Control panel is served from the site root (`CRAFT_CP` in
 - The daemon holds the release dir it started in — deploy script must run
   `sudo -S supervisorctl restart daemon-1099199:*`.
 - No crontab for `forge`.
+- Supervisor config has `stopasgroup=true`, so the deploy restart SIGTERMs
+  the isolated `queue/exec` child immediately (despite `stopwaitsecs=310`).
+  Any job running mid-deploy fails with `The process has been signaled with
+  signal "15"` (seen 2026-10-15 on an UpdateSearchIndex job). Retry with
+  `php8.5 craft queue/retry <id>`.
 
 ## Backups — ⚠️ NOT COVERED
 - **urmel has no restic setup** (`~/.restic-env` and `~/bin/backup-sites.sh`
