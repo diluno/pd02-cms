@@ -1,4 +1,4 @@
-dateModified: 1792096823
+dateModified: 1792142293
 email:
   fromEmail: sam@diluno.com
   fromName: 'Digital Violence Info'
@@ -65,6 +65,7 @@ meta:
     7009856f-759c-4bcd-9df3-d35151327e2f: Richtext # Richtext
     30689186-766e-4528-8bd2-0c73394dba60: 'Box Group' # Box Group
     a7feb6ec-ce9b-45c5-9343-047045c744a5: 'Accordion Items' # Accordion Items
+    b0863862-ae76-40f1-98d0-373754ba3ed2: 'Logo Size' # Logo Size
     b12bce77-7dce-4528-983a-a53ede97ec7b: General # General
     b77edfd0-043c-470a-9805-e7d2e8ab1ddf: 'SEO Image' # SEO Image
     b718c161-0f10-4232-923b-ba8ca52dfdd0: 'Alert Bar' # Alert Bar

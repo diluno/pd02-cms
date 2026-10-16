@@ -1,0 +1,19 @@
+columnSuffix: null
+handle: logoScale
+instructions: '100% keeps the standard size. Use a lower value to reduce the logo or a higher value to enlarge it. Logos always fit the available width.'
+name: 'Logo Size'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 100
+  max: 200
+  min: 50
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  step: 1
+  suffix: '%'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

@@ -15,6 +15,7 @@ use craft\elements\Entry;
 use craft\fieldlayoutelements\CustomField;
 use craft\fieldlayoutelements\entries\EntryTitleField;
 use craft\fields\Matrix;
+use craft\fields\Number;
 use craft\models\EntryType;
 use craft\models\FieldLayout;
 use craft\models\FieldLayoutTab;
@@ -62,6 +63,25 @@ if (!$image || !$itemLink) {
     throw new Exception('missing existing image or itemLink field');
 }
 
+$logoScale = $fields->getFieldByHandle('logoScale');
+if (!$logoScale) {
+    $logoScale = new Number([
+        'handle' => 'logoScale',
+        'name' => 'Logo Size',
+        'instructions' => '100% keeps the standard size. Use a lower value to reduce the logo or a higher value to enlarge it. Logos always fit the available width.',
+        'min' => 50,
+        'max' => 200,
+        'step' => 1,
+        'decimals' => 0,
+        'defaultValue' => 100,
+        'suffix' => '%',
+        'translationMethod' => 'none',
+    ]);
+    if (!$fields->saveField($logoScale)) {
+        throw new Exception('logoScale field: ' . json_encode($logoScale->getErrors()));
+    }
+}
+
 $partnerType = $entries->getEntryTypeByHandle('partnerLogo');
 if (!$partnerType) {
     $partnerType = new EntryType([
@@ -77,6 +97,16 @@ if (!$partnerType) {
         [$image, true, 100],
         [$itemLink, false, 100],
     ], true));
+    savePartnerLogosEntryType($partnerType);
+}
+
+$layout = $partnerType->getFieldLayout();
+$tab = $layout->getTabs()[0];
+$elements = $tab->getElements();
+if (!array_filter($elements, fn($element) => $element instanceof CustomField && $element->getFieldUid() === $logoScale->uid)) {
+    $elements[] = new CustomField($logoScale);
+    $tab->setElements($elements);
+    $partnerType->setFieldLayout($layout);
     savePartnerLogosEntryType($partnerType);
 }
 
