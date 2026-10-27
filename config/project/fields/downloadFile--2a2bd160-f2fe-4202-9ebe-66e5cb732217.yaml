@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: downloadFile
-instructions: 'PDF offered by the download button.'
-name: 'Download File'
+instructions: 'PDFs offered by the download buttons. For multiple files, asset titles identify each version on its button.'
+name: 'Download Files'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -14,7 +14,7 @@ settings:
   defaultUploadLocationSource: 'volume:ba207dc3-abc5-4588-9f0e-85edd741e210' # Assets
   defaultUploadLocationSubpath: downloads
   maintainHierarchy: false
-  maxRelations: 1
+  maxRelations: null
   minRelations: null
   previewMode: full
   restrictFiles: true

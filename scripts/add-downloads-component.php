@@ -5,7 +5,7 @@
  *     ddev exec php scripts/add-downloads-component.php
  *
  * Each card has a localized title, optional preview image and description,
- * required PDF, and optional localized button label. Safe to re-run.
+ * required PDFs, and optional localized button label. Safe to re-run.
  */
 
 require __DIR__ . '/../bootstrap.php';
@@ -70,15 +70,15 @@ $downloadFile = $fields->getFieldByHandle('downloadFile');
 if (!$downloadFile) {
     $downloadFile = new Assets([
         'handle' => 'downloadFile',
-        'name' => 'Download File',
-        'instructions' => 'PDF offered by the download button.',
+        'name' => 'Download Files',
+        'instructions' => 'PDFs offered by the download buttons. For multiple files, asset titles identify each version on its button.',
         'sources' => '*',
         'defaultUploadLocationSource' => $assetsSource,
         'defaultUploadLocationSubpath' => 'downloads',
         'restrictedLocationSource' => $assetsSource,
         'allowedKinds' => ['pdf'],
         'restrictFiles' => true,
-        'maxRelations' => 1,
+        'maxRelations' => null,
         'viewMode' => 'list',
         'previewMode' => 'full',
         'allowUploads' => true,
@@ -90,7 +90,13 @@ if (!$downloadFile) {
     }
     echo "✓ field downloadFile\n";
 } else {
-    echo "· field downloadFile exists\n";
+    $downloadFile->name = 'Download Files';
+    $downloadFile->instructions = 'PDFs offered by the download buttons. For multiple files, asset titles identify each version on its button.';
+    $downloadFile->maxRelations = null;
+    if (!$fields->saveField($downloadFile)) {
+        throw new Exception('downloadFile field: ' . json_encode($downloadFile->getErrors()));
+    }
+    echo "✓ field downloadFile allows multiple PDFs\n";
 }
 
 $downloadLabel = $fields->getFieldByHandle('downloadLabel');
