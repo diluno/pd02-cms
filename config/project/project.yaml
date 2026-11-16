@@ -26,6 +26,7 @@ meta:
     3ac961aa-61c3-4e44-9448-8b1aedcb3291: 'Footer Link' # Footer Link
     3b25fa09-d5ea-4370-8882-4699bf4d7083: Box # Box
     3d3f3305-04d5-49d2-8b1c-224e2b67442a: 'Alert Icon' # Alert Icon
+    3f64ec89-012a-4619-a200-4456426bc456: 'Image Display' # Image Display
     4cc4a54e-f92c-415e-91f9-2e0868f78cf5: Spacer # Spacer
     4f5e2019-880b-4ad9-ad37-5a48690f88fc: 'Footer Links' # Footer Links
     5b5667b0-a027-4f7a-be66-0fda05f4d532: 'Partner Logos' # Partner Logos
@@ -80,7 +81,6 @@ meta:
     dda23604-56f0-495a-a6ed-65d381685a99: 'Box Icon' # Box Icon
     e7d26042-470b-4891-a117-7cb38fb3e7d6: 'Link Items' # Link Items
     edc52aee-d522-46d1-a37c-cf539a0a28cf: 'Title Size' # Title Size
-    3f64ec89-012a-4619-a200-4456426bc456: 'Image Display' # Image Display
 plugins:
   ckeditor:
     edition: standard
@@ -95,5 +95,5 @@ system:
   live: true
   name: 'Digital Violence Info'
   retryDuration: null
-  schemaVersion: 5.11.0.2
+  schemaVersion: 5.12.0.2
   timeZone: America/Los_Angeles
