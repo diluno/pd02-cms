@@ -3,8 +3,8 @@
   "prefer-stable": true,
   "require": {
     "craftcms/ckeditor": "^5.9.0",
-    "craftcms/cms": "^5.11.5.1",
-    "dartdigital/dart-flysystem-provider": "^1.0",
+    "craftcms/cms": "^5.12.1",
+    "dartdigital/dart-flysystem-provider": "^v1.0.1",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
