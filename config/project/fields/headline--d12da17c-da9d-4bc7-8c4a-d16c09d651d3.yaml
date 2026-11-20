@@ -1,0 +1,47 @@
+columnSuffix: null
+handle: headline
+instructions: 'Optional. The page title as shown on the page. Select words and choose the style «Markierung» to highlight them in mint. Leave empty to show the plain title.'
+name: Headline
+searchable: false
+settings:
+  advancedLinkFields:
+    - target
+  availableTransforms: ''
+  availableVolumes: '*'
+  characterLimit: null
+  css: null
+  cssFile: null
+  defaultTransform: null
+  defaultUploadLocationSubpath: null
+  defaultUploadLocationVolume: null
+  fullGraphqlData: true
+  headingLevels:
+    - 1
+  imageEntryTypeUid: null
+  imageFieldUid: null
+  imageMode: img
+  js: null
+  jsFile: null
+  options:
+    style:
+      definitions:
+        -
+          classes:
+            - mark
+          element: span
+          name: Markierung
+  parseEmbeds: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  toolbar:
+    - heading
+    - style
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\ckeditor\Field

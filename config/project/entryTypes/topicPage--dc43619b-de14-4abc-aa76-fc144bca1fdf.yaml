@@ -41,6 +41,54 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
+            fieldUid: d12da17c-da9d-4bc7-8c4a-d16c09d651d3 # Headline
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6310d2b1-aa04-4b64-b96d-4945581468e2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: aadf733c-e2d8-4c04-8c77-6a3123b2bc28 # Navigation Title
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01904160-9d2c-4d67-a35d-219ba21e0d9e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 94bdd025-bafd-4591-9677-ce1e32eb5d77 # Navigation Group
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6064e99d-edc2-46ff-a2eb-0ec61eb000d7
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
             fieldUid: 86bdf1c6-40a2-45a8-b62f-eb1162f3fb34 # Lead Text
             handle: null
             instructions: null

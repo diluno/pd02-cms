@@ -41,6 +41,38 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
+            fieldUid: d12da17c-da9d-4bc7-8c4a-d16c09d651d3 # Headline
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2f7f5b3-9f40-4d27-b54b-c6b7b1449775
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: aadf733c-e2d8-4c04-8c77-6a3123b2bc28 # Navigation Title
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bebf64ea-fb4b-43cf-9208-a30d63e3b4f1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
             fieldUid: 6b4b5506-4547-4ce8-a097-175326f62438 # Hero Statement
             handle: null
             instructions: null

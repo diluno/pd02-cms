@@ -1,0 +1,67 @@
+columnSuffix: null
+handle: navGroup
+instructions: 'Where this page sits in the menus.'
+name: 'Navigation Group'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Themen
+        -
+          - value
+          - topics
+        -
+          - icon
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Ressourcen
+        -
+          - value
+          - resources
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Meta (klein)'
+        -
+          - value
+          - meta
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Spenden-Button
+        -
+          - value
+          - donate
+        -
+          - icon
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: navTitle
+instructions: 'Optional. A shorter title for the menus. Leave empty to show the full title.'
+name: 'Navigation Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
