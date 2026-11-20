@@ -21,9 +21,6 @@ fs:
     url: $CLOUDFLARE_R2_BASIS_URL
 meta:
   __names__:
-    d12da17c-da9d-4bc7-8c4a-d16c09d651d3: Headline # Headline
-    94bdd025-bafd-4591-9677-ce1e32eb5d77: 'Navigation Group' # Navigation Group
-    aadf733c-e2d8-4c04-8c77-6a3123b2bc28: 'Navigation Title' # Navigation Title
     2a2bd160-f2fe-4202-9ebe-66e5cb732217: 'Download File' # Download File
     2aa1a89e-ef92-417e-99de-d69535adcd7b: 'Allow Multiple Items Open' # Allow Multiple Items Open
     3ac961aa-61c3-4e44-9448-8b1aedcb3291: 'Footer Link' # Footer Link
@@ -54,6 +51,7 @@ meta:
     78e8ad99-d6ad-4ec2-b626-3058abbb69ab: 'Partner Logo' # Partner Logo
     83bdf192-e837-424f-b13b-d3e71f3f4199: 'SEO Description' # SEO Description
     86bdf1c6-40a2-45a8-b62f-eb1162f3fb34: 'Lead Text' # Lead Text
+    94bdd025-bafd-4591-9677-ce1e32eb5d77: 'Navigation Group' # Navigation Group
     0381f550-8224-4fbc-a3c8-a1d70ecb63c9: 'Spacer Size' # Spacer Size
     502ff4d7-71bf-40cc-b1b5-caabca315bb8: 'Digital Violence Info' # Digital Violence Info
     578f3ce9-31ff-4318-90bc-0a9f48ef5961: 'Digital Violence Info EN' # Digital Violence Info EN
@@ -69,6 +67,7 @@ meta:
     7009856f-759c-4bcd-9df3-d35151327e2f: Richtext # Richtext
     30689186-766e-4528-8bd2-0c73394dba60: 'Box Group' # Box Group
     a7feb6ec-ce9b-45c5-9343-047045c744a5: 'Accordion Items' # Accordion Items
+    aadf733c-e2d8-4c04-8c77-6a3123b2bc28: 'Navigation Title' # Navigation Title
     b0863862-ae76-40f1-98d0-373754ba3ed2: 'Logo Size' # Logo Size
     b12bce77-7dce-4528-983a-a53ede97ec7b: General # General
     b77edfd0-043c-470a-9805-e7d2e8ab1ddf: 'SEO Image' # SEO Image
@@ -78,6 +77,7 @@ meta:
     bfeb0a53-2343-4e7b-a6ba-e6c66f1c1212: 'Accordion Item' # Accordion Item
     c0b402c5-966c-4283-a011-413b1095969d: 'Download Button Label' # Download Button Label
     cd2f532e-e0c7-4375-b49e-1d7f66a76f83: Download # Download
+    d12da17c-da9d-4bc7-8c4a-d16c09d651d3: Headline # Headline
     d88ad519-a115-4bed-8762-e4127633bece: 'Link List' # Link List
     d97c0326-e5c2-4615-8e72-0e53c3a6b957: Link # Link
     dc43619b-de14-4abc-aa76-fc144bca1fdf: 'Topic Page' # Topic Page
