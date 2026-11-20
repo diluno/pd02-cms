@@ -9,7 +9,7 @@ settings:
   availableTransforms: ''
   availableVolumes: '*'
   characterLimit: null
-  css: null
+  css: '.mark { background-color: #18fddf; padding: 0.1em 0.16em 0.06em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }'
   cssFile: null
   defaultTransform: null
   defaultUploadLocationSubpath: null
